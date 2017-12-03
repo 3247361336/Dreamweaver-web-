@@ -1,0 +1,8 @@
+<?php
+header('content-type:text/html;charset=utf-8');
+require './public_function.php';
+dbInit();
+
+define('APP', 'itcast');
+//加载视图页面，显示数据
+require './add_html.php';

@@ -1,0 +1,46 @@
+/* CSS Document */
+/*----------------tab页签---------------------*/
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+.tab1{width:281px;border-top:#aec7e5 solid 1px;border-bottom:#aec7e5 solid 1px; margin-top:20px auto 0 auto;}
+.menu{height:28px;border-left:#cccccc solid 1px; width:280px;}
+.menu li{float:left;width:69px;text-align:center;line-height:28px;height:28px;cursor:pointer;border-right:#cccccc solid 1px;color:#666;font-size:14px;overflow:hidden;background:#E0E2EB;}
+.menu li.off{background:#3385ff;color: White;font-weight:bold;}
+.menudiv{height:200px;border-left:#cccccc solid 1px;border-right:#cccccc solid 1px;border-top:0;background:#fefefe}
+.menudiv div{padding:15px;line-height:28px;}
+/*--------------------按钮--------------------------*/
+.menudiv input[type="text"]{
+    width:120px;
+    height:16px;
+ padding: 4px 2px;
+ float: left;    
+ font: bold 12px 'lucida sans', 'trebuchet MS', 'Tahoma';
+ border: 1px solid #ccc;
+ box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+ border-radius: 3px;    
+}
+ .menudiv span {
+        color:blue;
+        margin:2px;
+        height:20px;
+        line-height:20px;
+}
+.lnkBtn
+{
+     width: 1024px; margin-left: auto; margin-right: auto;
+     height:26px;
+     line-height:26px;
+     clear:left;
+     background-color:white;
+}
+.lnkBtn a{
+    margin-left:20px;
+    font-size:14px;
+}
+.lnkBtn a:hover{
+   color:red;
+}
+ .lnkBtn a:visited {
+    color: #9900FF
+}

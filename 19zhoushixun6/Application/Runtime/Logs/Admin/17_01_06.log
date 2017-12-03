@@ -1,0 +1,103 @@
+[ 2017-01-06T11:14:19+08:00 ] ::1 /19zhoushixun/index.php/Admin/Student/addAll
+ERR: 1062:Duplicate entry '1' for key 'student_number'
+ [ SQL语句 ] : INSERT INTO `stu_student` (`student_number`,`student_name`,`student_birthday`,`student_gender`,`class_id`) VALUES ('1','1','1','男','1')
+
+[ 2017-01-06T11:35:38+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: 1146:Table 'test.stu_major' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `stu_major`
+
+[ 2017-01-06T11:39:33+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:39:34+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:39:35+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:39:36+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:39:37+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:39:38+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:40:01+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:40:56+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:40:59+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:41:02+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:41:08+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:42:55+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:42:56+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:42:57+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:43:03+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:45:08+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:45:09+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:45:15+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:46:08+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:46:11+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:52:20+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Major/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:52:45+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Major/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:53:59+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Major/showList
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T11:54:58+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/addAll
+ERR: 1146:Table 'test.stu_major' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `stu_major`
+
+[ 2017-01-06T12:05:16+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/update/student_id/1
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T12:08:12+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/add
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `stu_student` (`student_id`,`student_number`,`student_name`,`student_birthday`) VALUES ('2','2','2','2')
+
+[ 2017-01-06T12:08:22+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/add
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `stu_student` (`student_id`,`student_number`,`student_name`,`student_birthday`) VALUES ('2','2','2','2')
+
+[ 2017-01-06T12:27:24+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2017-01-06T12:32:59+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Student/addAll
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `stu_student` (`student_id`,`student_number`,`student_name`,`student_birthday`) VALUES ('4','4','4','4'),('5','5','5','5')
+
+[ 2017-01-06T13:31:04+08:00 ] ::1 /19zhoushixun5/index.php/Admin/Index/login.html
+ERR: 1146:Table 'test.stu_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `stu_admin`
+

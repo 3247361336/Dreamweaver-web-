@@ -1,0 +1,26 @@
+<?php
+     header('Content-type:text/html;charset=utf-8');
+     require './public_function.php';
+     dbInit();
+     if(!empty($_POST)){
+     	$fileds=array('e_name','e_dept','date_of_birth','date_of_entry');
+     	$value=array();
+     	foreach($fileds as $k => $v){
+     		$data=isset($_POST[$v])?$_POST[$v]:'';
+     		if($data=='')die($v.'字段不能为空');
+     		$data=safeHandle($data);
+     		$fileds[$k]="`$v`";
+     		$values[]="'$data'";
+     	}
+     	$fileds=implode(',', $fileds);
+     	$values=implode(',', $values);
+     	$sql="inset into `lkf` ($fileds) values ($values)";
+     	if($res = query($sql)){
+     		header('Location:./showList.php');
+     		die;
+     	}else{
+     		die('员工添加失败！');
+     	}
+     }
+defined('APP','123');
+require './add_html.php';

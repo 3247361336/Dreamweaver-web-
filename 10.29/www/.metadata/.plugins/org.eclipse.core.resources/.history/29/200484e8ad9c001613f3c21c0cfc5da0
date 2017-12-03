@@ -1,0 +1,56 @@
+<?php if(!defined('APP')) die('error!');?>
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>员工信息列表</title>
+  <style>
+	.box{margin:20px;}
+	.box .title{font-size:22px;font-weight:bold;text-align:center;}
+	.box table{width:100%;margin-top:15px;border-collapse:collapse;font-size:12px;border:1px solid #B5D6E6;min-width:460px;}
+	.box table th,.box table td{height:20px;border:1px solid #B5D6E6;}
+	.box table th{background-color:#E8F6FC;font-weight:normal;}
+	.box table td{text-align:center;}
+	.search{float:right;font-size:12px;margin:20px;}
+	.page{float:right;font-size:12px;margin:10px;}
+	
+	/*------------添加员工的样式-------------*/
+	.add{float:right;font-size:12px;margin:10px;clear:both}
+	
+  </style>
+</head>
+<body>
+<div class="box">
+<form id="from1" name="from1" methpd="post" action="./empUpdate.php">
+ <table width="200" border="1">
+    <tr>
+     <th>姓名</th>
+     <td><label for="textfield"></label>
+     <input type="text" name="e_name" id="textfield" value="<?php echo $row[1]?>"></td>
+    </tr>
+     <tr>
+     <th>所属部门</th>
+     <td><label for="textfield"></label>
+     <input type="text" name="e_dept" id="textfield" value="<?php echo $row[2]?>"></td>
+    </tr>
+     <tr>
+     <th>出生年月</th>
+     <td><label for="textfield"></label>
+     <input type="text" name="date_of_birth" id="textfield" value="<?php echo $row[3]?>"></td>
+    </tr>
+     <tr>
+     <th>入职日期</th>
+     <td><label for="textfield"></label>
+     <input type="text" name="date_of_entry" id="textfield" value="<?php echo $row[4]?>"></td>
+    </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    </tr>
+    <tr><th colspan="2" class="td-btn">
+	<input type="submit" value="保存资料" class="button"/>
+	<input type="reset" value="重新填写" class="button"/>
+ </table>
+</form>
+</div>
+</body>

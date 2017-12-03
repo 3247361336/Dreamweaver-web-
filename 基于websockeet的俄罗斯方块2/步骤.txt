@@ -1,0 +1,4 @@
+1.界面的搭建--创建index.html,style.css,script.js
+2.界面的渲染逻辑--编写script.js,tyle.css
+3.代码结构调整--创建多个js文件  模块化： script.js调用local.js和remote.js；local.js代表本地我的区域的逻辑，remote.js代表远程对方的游戏区域逻辑；local.js和remote.js调用game.js；
+game.js代表结构的核心，它调用square.js;square.js代表方块，它有衍生square1-7.js模块；square1-7.js代表7种方块，方块的操作如左移、右移、旋转、下落在script中实现；squareFactory是一个工厂类，主要负责生成方块，square1-7写在里面。（附加文件夹内/JS俄罗斯结构图）

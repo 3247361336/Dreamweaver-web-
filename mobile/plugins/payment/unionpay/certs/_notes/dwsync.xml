@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="700000000000001_acp.p12" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+<file name="acp_prod_enc.cer" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+<file name="acp_prod_verify_sign.cer" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+<file name="acp_test_enc.cer" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+<file name="acp_test_sign.pfx" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+<file name="acp_test_verify_sign.cer" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+<file name="verify_sign_acp.cer" server="F:/wamp/www/" local="131400955760000000" remote="131400955760000000" Dst="0" />
+</dwsync>

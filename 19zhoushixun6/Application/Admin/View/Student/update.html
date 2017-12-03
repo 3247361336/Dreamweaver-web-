@@ -1,0 +1,32 @@
+<include file="Index/header" />
+<h2 class="main-right-nav">图书管理 &gt; 图书修改</h2>
+<div class="main-right-table">
+	<form method="post">
+	<input type="hidden" name="student_id" value="{$student_info.student_id}"/>
+	<table class="table">
+	<tr>
+			<th>图书号：</th>
+			<td><input value="{$student_info.student_id}" type="text" class="form-text" name="student_id" required></td>
+		</tr>
+		<tr>
+			<th>图书名：</th>
+			<td><input value="{$student_info.student_number}" type="text" class="form-text" name="student_number" required></td>
+		</tr>
+		<tr>
+			<th>作者：</th>
+			<td><input value="{$student_info.student_name}" type="text" class="form-text" name="student_name" required></td>
+		</tr>
+		<tr>
+			<th>出版社：</th>
+			<td><input value="{$student_info.student_birthday}" type="text" class="form-text" name="student_birthday" required></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit" value="确认更新" class="form-btn">
+				<input type="reset" value="重新填写" class="form-btn">
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+<include file="Index/footer" />

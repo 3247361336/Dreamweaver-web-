@@ -1,0 +1,12 @@
+[ 2017-01-06T10:26:16+08:00 ] ::1 /19zhoushixun1/index.php/Admin/Student/add
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T10:26:39+08:00 ] ::1 /19zhoushixun1/index.php/Admin/Student/add
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-06T10:55:53+08:00 ] ::1 /19zhoushixun2/index.php/Admin/Major/showList
+ERR: 模板不存在:./Application/Admin/View/Major/showList.html
+
+[ 2017-01-06T10:56:12+08:00 ] ::1 /19zhoushixun2/index.php/Admin/Major/showList
+ERR: 模板不存在:./Application/Admin/View/Major/showList.html
+

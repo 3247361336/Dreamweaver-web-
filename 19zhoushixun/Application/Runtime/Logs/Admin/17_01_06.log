@@ -1,0 +1,4 @@
+[ 2017-01-06T11:14:19+08:00 ] ::1 /19zhoushixun/index.php/Admin/Student/addAll
+ERR: 1062:Duplicate entry '1' for key 'student_number'
+ [ SQL语句 ] : INSERT INTO `stu_student` (`student_number`,`student_name`,`student_birthday`,`student_gender`,`class_id`) VALUES ('1','1','1','男','1')
+

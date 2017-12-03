@@ -1,0 +1,11 @@
+[ 2017-01-04T20:31:02+08:00 ] ::1 /15209/index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2017-01-04T20:45:21+08:00 ] ::1 /19zhoushixun/index.php/Admin/Index/login.html
+ERR: 1146:Table 'itcast.stu_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `stu_admin`
+
+[ 2017-01-04T21:12:04+08:00 ] ::1 /19zhoushixun/index.php/Admin/Student/showList
+ERR: 1146:Table 'itcast.stu_student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `stu_student`
+

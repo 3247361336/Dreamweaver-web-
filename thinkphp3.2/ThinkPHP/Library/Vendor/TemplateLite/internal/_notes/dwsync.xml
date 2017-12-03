@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="compile.compile_config.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.compile_custom_block.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.compile_custom_function.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.compile_if.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.generate_compiler_debug_output.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.include.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.parse_is_expr.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="compile.section_start.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="debug.tpl" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="template.build_dir.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="template.config_loader.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="template.destroy_dir.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="template.fetch_compile_include.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+<file name="template.generate_debug_output.php" server="F:/wamp/www/" local="130355584810000000" remote="130355584810000000" Dst="0" />
+</dwsync>

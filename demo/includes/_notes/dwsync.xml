@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="cls_captcha.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_certificate.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_ecshop.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_error.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_iconv.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_image.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_json.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_matrix.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_mysql.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_rss.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_session.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_sms.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_smtp.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_sql_executor.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_template.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="cls_transport.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="inc_constant.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="init.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib.debug.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_article.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_base.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_clips.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_code.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_common.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_compositor.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_goods.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_insert.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_license.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_main.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_order.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_passport.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_payment.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_time.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_transaction.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="lib_uc.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="safety.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+<file name="shopex_json.php" server="F:/wamp/www/" local="131178585900000000" remote="131178585900000000" Dst="0" />
+</dwsync>

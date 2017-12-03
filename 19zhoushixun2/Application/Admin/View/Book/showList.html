@@ -1,0 +1,23 @@
+<include file="Index/header" />
+<h2 class="main-right-nav">图书管理 &gt; 图书列表</h2>
+<div class="main-right-titbox">
+	<ul><li><a href="#">图书列表</a></li></ul>
+</div>
+<table class="table">
+	<tr><th>图书号</th><th>图书名</th><th>作者</th><th>出版社</th><th>操作</th></tr>
+	<notempty name="book">
+		<foreach name="book" item="v">
+			<tr align="center">
+				<td>{$v.book_id}</td>
+				<td>{$v.book_name}</td>
+				<td>{$v.book_author}</td>
+				<td>{$v.publishing house}</td>
+				<td><div align="center"><a href="__CONTROLLER__/update/student_id/{$v.student_id}">编辑</a>&nbsp; &nbsp;<a href="__CONTROLLER__/delete/student_id/{$v.student_id}/class_id/{$v.class_id}"  onclick="javascript:if(confirm('确定要删除此信息吗？')){return true;}return false;">删除</a></div></td>
+			</tr>
+		</foreach>
+		<else/>
+		<tr align="center"><td colspan="5">查询的结果不存在！</td></tr>
+	</notempty>
+</table>
+<div><a href="__CONTROLLER__/add/class_id/{$class_id}" class="main-right-tita">添加图书</a></div>
+<include file="Index/footer" />

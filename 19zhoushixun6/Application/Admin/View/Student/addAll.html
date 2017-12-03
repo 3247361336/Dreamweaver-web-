@@ -1,0 +1,43 @@
+<include file="Index/header" />
+<h2 class="main-right-nav">图书管理 &gt; 批量添加</h2>
+<div class="main-right-addAll">
+	<form method="post">
+	<table class="table">
+		<tr>
+			<th>图书号</th><th>图书名</th><th>作者</th><th>出版社</th><th width="60">操作</th>
+		</tr>
+		<tr align="center" class="js-student">
+			<!--图书号-->
+			<td><input type="text" class="form-text" name="student_id[]"></td>
+			<!--图书名-->
+			<td><input type="text" class="form-text" name="student_number[]"></td>
+			<!--作者-->
+			<td><input type="text" class="form-text" name="student_name[]">
+			<!--出版社-->
+			<td><input type="text" class="form-text" name="student_birthday[]"></td>
+			<td><img id="append" src="__PUBLIC__/images/append.png" /> <img id="remove" src="__PUBLIC__/images/remove.png" /></td>
+		</tr>
+		<tr>
+			<td colspan="6" align="center">
+				<input type="submit" value="确认输入" class="form-btn">
+				<input type="reset" value="重新填写" class="form-btn">
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+<style>#append,#remove{cursor:pointer;vertical-align:middle}</style>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+	$("#append").click(function(){
+		tr = $(this).parents("tr");
+		tr.clone(true).insertAfter(tr);
+	});
+	$("#remove").click(function(){
+		if( $(".js-student").length > 1){
+			tr = $(this).parents("tr");
+			$(tr).remove();
+		}
+	});
+</script>
+<include file="Index/footer" />
